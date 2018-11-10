@@ -1,2 +1,2 @@
 # malpais
-connecting to Spotify API :musical_note:
+connecting to Spotify API :notes:
