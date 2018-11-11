@@ -12,11 +12,14 @@ var request = require('request'); // "Request" library
 var cors = require('cors');
 var querystring = require('querystring');
 var cookieParser = require('cookie-parser');
+require('dotenv').config();
 
 var client_id = process.env.CLIENTID_MALPAIS; // Your client id
 var client_secret = process.env.CLIENTSECRET_MALPAIS; // Your secret
 var redirect_uri = 'http://localhost:8888/callback'; // Your redirect uri
 
+console.log(client_id);
+console.log(client_secret);
 /**
  * Generates a random string containing numbers and letters
  * @param  {number} length The length of the string
@@ -108,7 +111,6 @@ app.get('/callback', function(req, res) {
           headers: { 'Authorization': 'Bearer ' + access_token },
           json: true
         };
-        console.log(options);
         // use the access token to access the Spotify Web API
         request.get(options, function(error, response, body) {
           console.log(body);

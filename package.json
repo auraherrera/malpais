@@ -1,0 +1,26 @@
+{
+  "name": "malpais",
+  "version": "1.0.0",
+  "description": "connecting tiquicia to Spotify",
+  "main": "app.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "debug": "^4.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/auraherrera/malpais.git"
+  },
+  "author": "auraherrera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/auraherrera/malpais/issues"
+  },
+  "homepage": "https://github.com/auraherrera/malpais#readme"
+}
