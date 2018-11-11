@@ -18,8 +18,6 @@ var client_id = process.env.CLIENTID_MALPAIS; // Your client id
 var client_secret = process.env.CLIENTSECRET_MALPAIS; // Your secret
 var redirect_uri = 'http://localhost:8888/callback'; // Your redirect uri
 
-console.log(client_id);
-console.log(client_secret);
 /**
  * Generates a random string containing numbers and letters
  * @param  {number} length The length of the string
