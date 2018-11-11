@@ -4,10 +4,11 @@
   "description": "connecting tiquicia to Spotify",
   "main": "app.js",
   "dependencies": {
-    "cors": "^2.8.5",
     "cookie-parser": "^1.4.3",
-    "express": "^4.16.4",
-    "debug": "^4.1.0"
+    "cors": "^2.8.5",
+    "debug": "^4.1.0",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4"
   },
   "devDependencies": {},
   "scripts": {
